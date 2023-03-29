@@ -1,1 +1,1 @@
-# LiveUSB-mpi
+# LiveUSB-MPI
