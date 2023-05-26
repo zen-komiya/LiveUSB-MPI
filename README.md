@@ -8,7 +8,7 @@ lb config --mirror-binary "http://ftp.jp.debian.org/debian/"
 lb config -a amd64  
 lb config --bootappend-live "boot=live components locales=ja_JP.UTF-8 keyboard-layouts=ja"  
 lb config --distribution bookworm  
-lb config --archive-areas "main contrib non-free non-free-firmware" 
+lb config --archive-areas "main contrib non-free non-free-firmware"   
 lb config  
 lb build
 
