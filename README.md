@@ -12,4 +12,4 @@ lb build
 
 ## USBへisoイメージを書き込む
 fdisk -l  
-dd if=./linuxmint-18.1-cinnamon-64bit.iso of=/dev/sdd bs=1048576
+dd if=./live-image-amd64.hybrid.iso of=/dev/sdc bs=1048576
