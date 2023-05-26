@@ -1,5 +1,7 @@
 # LiveUSB-MPI
 
+### custom.list.chrootの設定
+config/package-listsの中に，custom.list.chrootファイルを作成する．
 
 ### 初めてisoを生成する場合
 lb config --mirror-bootstrap "http://ftp.jp.debian.org/debian/"  
