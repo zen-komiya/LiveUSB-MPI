@@ -13,7 +13,7 @@ lb config noauto \
 --mirror-chroot "http://ftp.jp.debian.org/debian/" \
 --mirror-binary "http://ftp.jp.debian.org/debian/" \
 -a amd64 \
---bootappend-live "boot=live components locales=ja_JP.UTF-8 keyboard-layouts=ja utc=no timezone=Asia/Tokyo" \
+--bootappend-live "boot=live components username=mpi locales=ja_JP.UTF-8 keyboard-layouts=ja utc=no timezone=Asia/Tokyo" \
 --distribution bookworm \
 --archive-areas "main contrib non-free non-free-firmware" \
 "${@}"
