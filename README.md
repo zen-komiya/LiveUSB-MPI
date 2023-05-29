@@ -1,8 +1,8 @@
 # LiveUSB-MPI
 
-ユーザー名：パスワード
-mpi:mpi
-root:root
+ユーザー名：パスワード  
+mpi:mpi  
+root:root  
 
 ### custom.list.chrootの設定
 config/package-listsの中に，custom.list.chrootファイルを作成する．
